@@ -1,0 +1,37 @@
+root:
+  groups:
+    -
+      tags: []
+      phrases:
+        - "Make [a :mood] track in [:time], but [:limit]."
+mooo:
+  groups:
+    -
+      tags: []
+      phrases:
+        - "epic"
+        - "sad"
+        - "happy"
+        - "uplifting"
+        - "meme"
+time:
+  groups:
+    -
+      tags: []
+      phrases:
+        - "10 minutes"
+        - "15 minutes"
+        - "20 minutes"
+        - "25 minutes"
+        - "30 minutes"
+limit:
+  groups:
+    -
+      tags: []
+      phrases:
+        - "you must use animal sample(s)"
+        - "you must use anime sample(s)"
+        - "without using your most used or favourite VST or library"
+        - "without using the first two VSTs and/or libraries typed in this channel after this message"
+        - "you must use the first sample sent in this channel after this message"
+        - "you must use only the first two VSTs and/or libraries typed in this channel after this message"
