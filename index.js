@@ -6,8 +6,14 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
+  if (msg.author === client.user) return;
+
   if (msg.content === 'ping') {
     msg.reply('Pong!');
+  }
+
+  if (msg.content.includes('69')) {
+    msg.channel.send('Nice.');
   }
 });
 
