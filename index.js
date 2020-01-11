@@ -1,7 +1,10 @@
+require('dotenv').config()
+
 const Discord = require('discord.js');
 const client = new Discord.Client();
+const Improv = require('improv');
 const yaml = require("js-yaml");
-
+const fsj = require('fs-jetpack');
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);

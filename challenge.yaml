@@ -4,7 +4,7 @@ root:
       tags: []
       phrases:
         - "Make [a :mood] track in [:time], but [:limit]."
-mooo:
+mood:
   groups:
     -
       tags: []
@@ -13,7 +13,8 @@ mooo:
         - "sad"
         - "happy"
         - "uplifting"
-        - "meme"
+        - "angry"
+        - "tense"
 time:
   groups:
     -
@@ -35,3 +36,4 @@ limit:
         - "without using the first two VSTs and/or libraries typed in this channel after this message"
         - "you must use the first sample sent in this channel after this message"
         - "you must use only the first two VSTs and/or libraries typed in this channel after this message"
+        - "you must use only stock plugins"
