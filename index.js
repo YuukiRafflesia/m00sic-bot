@@ -21,6 +21,11 @@ client.on('message', msg => {
     msg.channel.send('Nice.');
   }
 
+  if (msg.content.toLowerCase().includes('german')) {
+    const deHeart = client.emojis.find(emoji => emoji.name === 'de_heart');
+    msg.channel.send(`${deHeart}`);
+  }
+
   if (msg.content === '!challenge') {
     const grammarData = yaml.load(fsj.read('challenge.yaml'));
 
